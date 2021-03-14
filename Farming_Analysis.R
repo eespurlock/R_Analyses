@@ -2,6 +2,7 @@
 #Author: Esther Spurlock
 #Description: Estimating the effect of taking a small business
 #loan on a farmer's wages
+#To run this analysis with data, please see my GitHub page: https://github.com/eespurlock/R_Analyses
 
 library(dplyr)
 library(readr)
