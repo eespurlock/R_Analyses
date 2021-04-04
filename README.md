@@ -1,4 +1,4 @@
-data: stores the data used to perform all 3 analyses
+data: stores the data used to perform all 3 analyses. This file includes a description of the data provided
 
 Air_Quality_Analysis.R: Performed time series analysis using fixed effects to see effects of pollution reduction 
   measures on air particulate matter. Found that pollution reduction measures also reduce the air particulate matter.
