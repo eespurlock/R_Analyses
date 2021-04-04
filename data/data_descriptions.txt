@@ -1,0 +1,33 @@
+A description of the data for each of the analyses
+
+air_qaulity_data.csv:
+	year: the year in which the data was collected
+	municipality_id: the municipality where data was collected
+	air_quality_regulation_year: the year air quality regulation was imposed
+		(if regulations were imposed)
+	particulate_matter: the amount of particulate matter measured
+
+farming_loans_data.csv:
+	burlig_trt: a dummy variable to indicate if a farmer was in the treatment or control group
+	burlig_trt_take: a dummy variable to indicate if a farmer was actually treated
+	baseline_employees: the number of employees before the program began
+	baseline_wages: the farmer's wages before the program began
+	baseline_sales: the number of sales before the program began
+	baseline_owner_female: whether the farmer is male or female before the program began
+	endline_wages: the farmer's wages after the program
+	endline_employees: the number of employees after the program
+	endline_sales: the number of sales after the program
+	endline_owner_female: whether the farmer is male or female after the program
+
+strategic_blackouts_data.csv:
+	iou: When iou == 1, something was going wrong with the power grid meters used and the higher the
+		hours of outage, the more inflated the measurements are. When iou == 2, the results are still
+		imperfect, but are more random.
+	utility_outage_hours: the hours of blackouts as described by the utility company
+	installed_pv_contractors: the contractors' estimate of the amont of solar ov on the grid
+	installed_pv_backchecks: a back-check of the amont of solar ov on the grid (performed on a 
+		subsample of the data) this back-check was performed by the program evaluators
+	installed_pv_contractors_v2: a second version (performed by the contractors) of the 
+		amont of solar ov on the grid
+	survey_outage_hours: the hours of blackouts as described by the people experiencing the	
+		blackouts
